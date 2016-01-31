@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Application xmlns="http://xmlns.oracle.com/adfm/application" version="12.1.3.2.1" id="DataBindings"
+             SeparateXMLFiles="false" Package="by.perevertkin.mobile" ClientType="Generic">
+  <pageMap>
+    <page path="/by.perevertkin.main/index.amx" usageId="by_perevertkin_mobile_indexPageDef"/>
+  </pageMap>
+  <pageDefinitionUsages>
+    <page id="by_perevertkin_mobile_indexPageDef" path="by.perevertkin.main.indexPageDef"/>
+  </pageDefinitionUsages>
+  <dataControlUsages>
+    <dc id="UserDC" path="by.perevertkin.mobile.UserDC"/>
+  </dataControlUsages>
+</Application>

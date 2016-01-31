@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<adfmf:application xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:adfmf="http://xmlns.oracle.com/adf/mf"
+                   version="1.0" name="MafDBSql" id="com.company.MafDBSql" appControllerFolder="ApplicationController"
+                   listener-class="by.perevertkin.application.LifeCycleListenerImpl">
+  <adfmf:featureReference refId="by.perevertkin.main" id="fr1"/>
+</adfmf:application>
